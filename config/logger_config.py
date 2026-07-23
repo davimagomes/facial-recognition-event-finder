@@ -1,7 +1,6 @@
-import os
 import logging
 
-import settings
+from config import settings
 
 logging.basicConfig(
     level=getattr(logging, settings.LOG_LEVEL, logging.INFO),

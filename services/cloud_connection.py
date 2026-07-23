@@ -1,6 +1,4 @@
-import os
 import logging
-from dotenv import load_dotenv
 
 import boto3
 from botocore.exceptions import ClientError, BotoCoreError
