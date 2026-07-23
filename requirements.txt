@@ -1,7 +1,8 @@
 boto3==1.43.53
 botocore==1.43.53
 dlib-bin==20.0.1
-face-recognition-no-deps
+--no-deps face-recognition==1.3.0
+face_recognition_models==0.3.0
 greenlet==3.5.3
 jmespath==1.1.0
 mysql-connector-python==9.7.0
