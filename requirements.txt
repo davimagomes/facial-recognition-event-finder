@@ -1,7 +1,5 @@
 boto3==1.43.53
 botocore==1.43.53
-dlib-bin==20.0.1
-git+https://github.com/ageitgey/face_recognition.git
 face_recognition_models==0.3.0
 greenlet==3.5.3
 jmespath==1.1.0
