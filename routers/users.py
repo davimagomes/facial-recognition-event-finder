@@ -1,9 +1,9 @@
 # from uuid import UUID
 
 from fastapi import APIRouter, Depends # HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 
-from database.db_connection import get_supabase_connection
+from database import get_supabase_connection
 
 router = APIRouter(
     prefix="/users",
@@ -12,7 +12,7 @@ router = APIRouter(
 
 class UserCreate(BaseModel):
     name: str
-    email: str
+    email: EmailStr
 
 # @router.get("/{user_id}")
 # def get_user_data(
